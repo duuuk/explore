@@ -1,0 +1,164 @@
+
+html {
+    background: #1B2441;
+}
+
+body {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4A4A4A;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1B2441;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+}
+
+h4{
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+}
+
+nav {
+    margin-bottom: 54px;
+}
+
+.logo {
+    color: white;
+    display: inline-block;
+}
+
+.logo-line {
+    background-color: #70FFE9;
+    width: 142px;
+    height: 8px;
+    margin-left: 16px;
+    margin-bottom: 4px;
+    display: inline-block
+}
+
+.box {
+    background-color: white;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: relative;
+    width: auto;
+    margin-bottom: 32px;
+}
+
+
+.box-border {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 3px solid #70FFE9;
+    left: 4px;
+    top: 4px;
+    z-index: -1;
+}
+
+.underline {
+    background-color: #70FFE9;
+    width: 72px;
+    height: 6px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.wrapper{
+    display: flex; 
+}
+
+.left-col {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.right-col {
+    width: 620px;;
+}
+
+.profile {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+
+}
+
+.profile-pic {
+    display: inline-block;
+    margin-right: 24px;
+    border-radius: 50%;
+    box-shadow: 4px 4px  #70FFE9;
+
+}
+
+p span {
+    display: block;
+    margin-top: 8px;
+}
+
+.plans {
+    width: 300px;
+}
+.grid-item {
+    display: flex;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+    grid-column-gap: 24px;
+    grid-row-gap: 48px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.mid-line {
+    grid-column: 2 / span 2;
+    background-color: #70FFE9;
+    width: 100%;
+    height: 6px; 
+    margin-top: 20px;
+
+}
+
+.client {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.client:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
